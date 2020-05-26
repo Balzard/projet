@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">See_U_Festival</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Options</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_gallery">Artistes</string>
+    <string name="menu_slideshow">Tickets</string>
+    <string name="menu_tools">A propos</string>
+    <string name="menu_share">Benevoles</string>
+    <string name="menu_send">Envoyer</string>
+    <string name="title_activity_settings">Options</string>
+    <string name="fr_value">Français</string>
+    <string name="en_value">Anglais</string>
+    <string name="nl_value">Néerlandais</string>
+    <string name="lang_title">Langues</string>
+    <string name="lang_header">Choisir la langue</string>
+    <string name="option_title">Options</string>
+    <string name="festival">Festival</string>
+    <string name="artistes">Artistes</string>
+    <string name="ticket">Tickets</string>
+    <string name="a_propors">A propos</string>
+    <string name="benevoles">Bénévoles</string>
+    <string name="description_benevole">Vous aimeriez participer à la mise en place d\'un de nos festivals ? Vous souhaitez aider notre équipe d\'une façon ou d\'une autre ? Cliquez sur ce bouton pour devenir bénévole !</string>
+    <string name="become_benevole">Devenir bénévole</string>
+    <string name="description_un_mute">Un-Mute, c\’est l\’ASBL qui vous déniche les petites pépites de la scène belge ! L\’objectif est simple : rendre la scène indépendante locale accessible au public, grâce au système de financement participatif appliqué au monde des festivals.</string>
+    <string name="what_is_un_mute">Un-Mute c\'est...</string>
+    <string name="description_ticket_samedi_early">Donne accès à une personne le samedi du festival. Participe à la validation des affiches du samedi (ou uniquement de l\'affiche de votre artiste favori si vous en avez un). Early bird - ces tickets ne seront plus disponibles après la date de validation.</string>
+    <string name="description_ticket_dimanche_early">Donne accès à une personne le dimanche 17 mai. Participe à la validation des affiches du dimanche (ou uniquement de l\'affiche de votre artiste favori si vous en avez un). Early bird - ces tickets ne seront plus disponibles après la date de validation.</string>
+    <string name="description_ticket_samedi">Donne accès à une personne le samedi 16 mai. Participe à la validation des affiches du samedi (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ticket_dimanche">Donne accès à une personne le dimanche 17 mai. Participe à la validation des affiches du samedi (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ticket_combi_early">Donne accès à une personne à l\'entièreté du festival. Participe à la validation de toutes les affiches (ou uniquement de l\'affiche de votre artiste favori si vous en avez un). Early bird - ces tickets ne seront plus disponibles après la date de validation.</string>
+    <string name="description_ticket_combi">Donne accès à une personne à l\'entièreté du festival. Participe à la validation de toutes les affiches (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ticket_enfant_samedi">Donne accès à un enfant de moins de 12 ans le samedi 16 mai. Participe à la validation des affiches du samedi (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ticket_enfant_dimanche">Donne accès à un enfant de moins de 12 ans le dimanche 17 mai. Participe à la validation des affiches du samedi (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ticket_enfant_combi">Donne accès à un enfant de moins de 12 ans à l\'entièreté du festival. Participe à la validation de toutes les affiches (ou uniquement de l\'affiche de votre artiste favori si vous en avez un).</string>
+    <string name="description_ab">Artiste liégeois de style électro-pop.\nMusicien autodidacte.\nAu four et au moulin, il écrit, interprète et compose des chansons en langue anglaise, mais également en espagnol, et, plus occasionnellement en français.</string>
+    <string name="map">Carte</string>
+    <string name="saturday">Samedi</string>
+    <string name="Sunday">Dimanche</string>
+    <string name="see_u_space">Espace See U</string>
+    <string name="festival_date">16/05/2020 - 17/05/2020</string>
+    <string name="see_u_festival">Festival au See U</string>
+    <string name="collaboratif">Collaboratif</string>
+    <string name="collab_description">Les artistes travaillent ensemble pour remplir la salle du festival, réunis derrière un objectif commun : le nombre de tickets minimum pour valider l\'événement.</string>
+    <string name="local">Local</string>
+    <string name="local_description">Il ne faut pas toujours chercher très loin pour trouver du talent... Près de chez vous, dans votre région, les artistes émergents ne demandent qu\'à se faire entendre.</string>
+    <string name="participatif">Participatif</string>
+    <string name="participatif_description">Le festival est produit sur base du financement collectif. Acheter un ticket revient à participer directement à la production de l\'événement !</string>
+    <string name="decouverte">Découverte</string>
+    <string name="decouverte_description">Votre playlist fait toujours tourner les mêmes artistes ? Pourtant, ce n\'est pas la variété qui manque. Nous vous avons déniché les pépites de demain !</string>
+    <string name="biographie">Biographie</string>
+    <string name="ab_1">Artiste liégeois de style électro-pop.</string>
+    <string name="ab_2">Musicien autodidacte.</string>
+    <string name="ab_3">Au four et au moulin, il écrit, interprète et compose des chansons en langue anglaise, mais également en espagnol, et, plus occasionnellement en français.</string>
+    <string name="scene_1">Scène 1</string>
+    <string name="scene_2">Scène 2</string>
+    <string name="scene_3">Scène 3</string>
+    <string name="on_air">SUR SCENE !</string>
+    <string name="past">PASSÉ</string>
+    <string name="ab" translatable="false">AB</string>
+    <string name="minds" translatable="false">Minds</string>
+    <string name="abey_blue" translatable="false">Abey Blue</string>
+    <string name="Alijane" translatable="false">Alijane</string>
+    <string name="Amos" translatable="false">Amos</string>
+    <string name="ANgelo_davis" translatable="false">Angelo Davies</string>
+    <string name="artschool" translatable="false">ARTSCHOOL</string>
+    <string name="azeerty" translatable="false">AZERTY</string>
+    <string name="vector" translatable="false">The Vectors</string>
+    <string name="vectors_description">The Vectors est un groupe de rock formé en 2015 dans la lignée de groupes anglais tels qu’Arctic Monkeys ou Muse avec des inspirations de groupes américains musclés comme Rage Against the Machine ou encore Queens of the Stone Age.</string>
+    <string name="yakhchal_description">Un trio post rock composé par basse, guitare et batterie. Yakhchal crée des chansons instrumentales faites d\'atmosphères et de mélodies mélancoliques, de boucles psychédéliques répétitives et des effets qui évoluent en riffs explosifs.</string>
+    <string name="dark_horse_description">Au début- hop- au milieu- zou- et puis vlan à la fin</string>
+    <string name="funkthisship_description">Quatuor de storytelling gravy-funk-rock alternatif.</string>
+    <string name="profil">Profil</string>
+</resources>
+

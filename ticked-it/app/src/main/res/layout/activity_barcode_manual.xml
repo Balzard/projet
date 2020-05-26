@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.BarcodeManualActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorPrimary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/logo_description"
+                    android:src="@drawable/logo_yb_stroked" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/enter_manually_barcode_instructions"
+                    android:textAlignment="center"
+                    android:textColor="?attr/textcolor"/>
+
+                <EditText
+                    android:id="@+id/input_barcode_value"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext_background"
+                    android:textColor="@color/iceland_poppy"
+                    android:textColorHint="@color/iceland_poppy" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_validation_request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:screenOrientation="portrait"
+                    android:drawableStart="@drawable/ic_check_white_24dp"
+                    android:text="@string/validate"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

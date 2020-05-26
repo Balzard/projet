@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#A6A6A6</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="textcolor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:editTextColor">@android:color/black</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_3_dots_24dp</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/dark_grey</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="textcolor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:itemBackground">@color/black</item>
+        <item name="bottomNavigationColor">#323232</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+
+    </style>
+
+    <!-- Change text's color of action bar -->
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!-- Theme for dialog SMART LOCK -->
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:windowTitleStyle">@style/DialogTitleStyle</item>
+    </style>
+
+    <style name="DialogTitleStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:drawableRight">@drawable/ic_lock_outline_black_24dp</item>
+    </style>
+
+    <!-- Theme for dialog NO INTERNET -->
+    <style name="AppCompatAlertDialogNoInternetStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/DialogNoInternetTitleStyle</item>
+    </style>
+
+    <style name="DialogNoInternetTitleStyle">
+        <item name="android:textColor">@color/iceland_poppy</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:drawableRight">
+            @drawable/ic_signal_cellular_connected_no_internet_0_bar_black_24dp
+        </item>
+    </style>
+
+    <!-- Theme for dialog NOT TODAY -->
+    <style name="AppCompatAlertDialogNotTodayStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/iceland_poppy</item>
+        <item name="android:textColorPrimary">@color/iceland_poppy</item>
+        <item name="android:background">@color/beige</item>
+        <item name="android:windowTitleStyle">@style/DialogNotTodayTitleStyle</item>
+    </style>
+
+    <style name="DialogNotTodayTitleStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:drawableRight">@drawable/ic_error_black_24dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

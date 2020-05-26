@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fa983a</color>
+    <color name="colorPrimaryDark">#fa983a</color>
+    <color name="colorAccent">#d6d7d8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="facebookBlue">#0d76e0</color>
+    <color name="gray">#878f9b</color>
+    <color name="beige">#f9f6ec</color>
+    <color name="dark_Gray">#5a5754</color>
+    <color name="brown">#b36435</color>
+
+    <!-- https://flatuicolors.com/palette/fr -->
+    <color name="flat_flesh">#fad390</color>
+    <color name="iceland_poppy">#fa983a</color>
+    <color name="livid">#6a89cc</color>
+    <color name="azraq_blue">#4a69bd</color>
+    <color name="dark_sapphire">#0c2461</color>
+    <color name="jalapeno_red">#b71540</color>
+    <color name="aurora_green">#78e08f</color>
+    <color name="reef_encounter">#079992</color>
+    <color name="spray">#89ccdd</color>
+    <color name="tomato_red">#eb2f06</color>
+    <color name="good_samaritan">#3c6382</color>
+    <color name="mandarin_red">#e55039</color>
+    <color name="paradise_green">#b8e994</color>
+    <color name="yue_guang_lan_blue">#1e3799</color>
+    <color name="waterfall">#38ada9</color>
+    <color name="carrot_orange">#e58e26</color>
+    <color name="midnightblue">#191970</color>
+    <color name="dark_grey">#121212</color>
+    <color name="drag_blue">#dff2ff</color>
+</resources>

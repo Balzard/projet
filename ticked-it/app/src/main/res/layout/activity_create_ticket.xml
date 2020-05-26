@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateTicketActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:text="@string/create_ticket"
+                android:textColor="?attr/textcolor"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_name"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="20"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_ticket_name"
+                    android:textSize="15dp"
+                    android:layout_weight="8"
+                    android:textColor="?attr/textcolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_description"
+                    android:layout_weight="20"
+                    android:textColor="?attr/textcolor"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_ticket_description"
+                    android:textSize="15dp"
+                    android:layout_weight="8"
+                    android:textColor="?attr/textcolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stock_ticket"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/textcolor"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_ticket_stock"
+                    android:textSize="15dp"
+                    android:layout_weight="8"
+                    android:textColor="?attr/textcolor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/max_nb_ticket"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    android:textColor="?attr/textcolor"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_nb_ticket_order"
+                    android:textSize="15dp"
+                    android:layout_weight="8"
+                    android:textColor="?attr/textcolor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="@string/ticket_weight"
+                    android:textColor="?attr/textcolor"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_ticket_weight"
+                    android:textSize="15dp"
+                    android:layout_weight="8"
+                    android:textColor="?attr/textcolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kid_ticket"
+                    android:textColor="?attr/textcolor"
+                    android:buttonTint="@color/colorPrimary"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="?attr/textcolor"
+                    android:text="@string/description_child_ticket"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/free_price"
+                    android:layout_marginTop="10dp"
+                    android:textColor="?attr/textcolor"
+                    android:buttonTint="@color/colorPrimary"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/free_ticket_price"
+                    android:textColor="?attr/textcolor"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/edittext_background"
+                    android:inputType="text"
+                    android:id="@+id/edit_free_ticket_price"
+                    android:textSize="15dp"
+                    android:textColor="?attr/textcolor"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create"
+                    android:backgroundTint="@color/iceland_poppy"
+                    android:textColor="@color/white" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

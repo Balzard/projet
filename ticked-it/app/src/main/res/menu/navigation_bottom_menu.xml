@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:background="?attr/colorPrimary">
+    <item
+        android:id="@+id/action_stat"
+        android:enabled="true"
+        android:title="@string/menu_item_stat"
+        android:icon="@drawable/ic_insert_chart_orange_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_qrcode"
+        android:enabled="true"
+        android:title="@string/menu_item_qrcode"
+        android:icon="@drawable/ic_photo_camera_orange_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_add_ticket"
+        android:enabled="true"
+        android:title="@string/menu_item_add_ticket"
+        android:icon="@drawable/ic_add_circle_orange_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_get_guest"
+        android:enabled="true"
+        android:title="@string/menu_item_guests"
+        android:icon="@drawable/ic_local_play_orange_24dp"
+        app:showAsAction="ifRoom"/>
+</menu>

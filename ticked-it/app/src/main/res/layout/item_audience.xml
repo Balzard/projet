@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="?attr/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="90"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/audience_buyer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom de l'acheteur"
+                android:textSize="18dp"
+                android:textColor="?attr/textcolor"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/audience_ticket_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="Ticket standard assis"
+                    android:textColor="?attr/textcolor"/>
+
+                <TextView
+                    android:id="@+id/audience_seat_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B:EST | R:23 | S:ZZ"
+                    android:textColor="?attr/textcolor"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/audience_cart_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commande: ybc5cd552b5956dc"
+                android:textColor="?attr/textcolor"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/copyBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="10"
+            android:drawableStart="@drawable/ic_content_copy_green_24dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>
+

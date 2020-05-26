@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/colorPrimary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/logo_description"
+                    android:src="@drawable/logo_yb_stroked" />-->
+
+                <ProgressBar
+                    android:id="@+id/pay_progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:text="@string/save_buyers_infos"
+                    android:textColor="?attr/textcolor"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/optional"
+                    android:layout_marginRight="5dp"
+                    android:textColor="?attr/textcolor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/email_address"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="40"
+                        android:textColor="?attr/textcolor"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="@drawable/edittext_background"
+                        android:inputType="textEmailAddress"
+                        android:id="@+id/buyer_email_input"
+                        android:textSize="15dp"
+                        android:layout_weight="60"
+                        android:textColor="?attr/textcolor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="40"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/lastname"
+                        android:layout_marginRight="5dp"
+                        android:textColor="?attr/textcolor"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="60"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="@drawable/edittext_background"
+                        android:inputType="text"
+                        android:textSize="15dp"
+                        android:id="@+id/buyer_lastname_input"
+                        android:textColor="?attr/textcolor"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="40"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/firstname"
+                        android:layout_marginRight="5dp"
+                        android:textColor="?attr/textcolor"/>
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="60"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:background="@drawable/edittext_background"
+                        android:inputType="text"
+                        android:id="@+id/buyer_firstname_input"
+                        android:textSize="15dp"
+                        android:textColor="?attr/textcolor"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/amount_to_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pay_cash_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:drawableStart="@drawable/ic_attach_money_white_24dp"
+                    android:text="@string/via_cash"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/flat_flesh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="?attr/colorPrimary">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/logo_description"
+                    android:src="@drawable/logo_yb_stroked"
+                    android:layout_gravity="center|top"/>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <EditText
+                            android:id="@+id/input_username"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_marginBottom="3dp"
+                            android:hint="@string/username"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/iceland_poppy"
+                            android:textColorHint="@color/colorPrimary"
+                            android:backgroundTint="?attr/textcolor"
+                            android:layout_gravity="center"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center">
+                            <EditText
+                                android:id="@+id/input_password"
+                                android:layout_width="200dp"
+                                android:layout_height="40dp"
+                                android:hint="@string/password"
+                                android:inputType="textPassword"
+                                android:textColor="@color/iceland_poppy"
+                                android:textColorHint="@color/colorPrimary"
+                                android:backgroundTint="?attr/textcolor"
+                                android:layout_gravity="right"/>
+
+                        <Button
+                            android:id="@+id/password_visibility"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:background="@drawable/ic_visibility_green_24dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                        <TextView
+                            android:id="@+id/textUrl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/create_account"
+                            android:textColor="?attr/textcolor"
+                            android:clickable="true"
+                            android:onClick="goToUrl"
+                            android:layout_gravity="center"/>
+
+                    </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="1">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/login_um_btn"
+                                android:layout_width="250dp"
+                                android:layout_height="50dp"
+                                android:layout_marginBottom="20dp"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:onClick="loginViaUm"
+                                android:padding="5dp"
+                                android:drawableStart="@drawable/ic_person_white_24dp"
+                                android:text="@string/login_um"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center"/>
+
+                            <ProgressBar
+                                android:id="@+id/progressBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

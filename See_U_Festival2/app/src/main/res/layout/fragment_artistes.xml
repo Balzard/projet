@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+               <ImageButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="200dp"
+                   android:src="@drawable/minds"
+                   android:textAlignment="center" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minds"
+                    android:textColor="@color/orange_un_mute"
+                    android:background="@color/primary_un_mute"
+                    android:layout_gravity="bottom |right"
+                    android:textSize="20dp"/>
+
+
+            </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/abey_blue"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/abey_blue"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/amos"
+                        android:textAlignment="center"
+                       />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Amos"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/artiste_default"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/artschool"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ab"
+                    android:textAlignment="center"
+                    android:onClick="goToLineAB"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ab"
+                    android:textColor="@color/orange_un_mute"
+                    android:background="@color/primary_un_mute"
+                    android:layout_gravity="bottom |right"
+                    android:textSize="20dp"/>
+
+
+            </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/alijane"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Alijane"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/angelo_davies"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ANgelo_davis"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:src="@drawable/azerty"
+                        android:textAlignment="center"
+                        android:onClick="goToLineAB"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/azeerty"
+                        android:textColor="@color/orange_un_mute"
+                        android:background="@color/primary_un_mute"
+                        android:layout_gravity="bottom |right"
+                        android:textSize="20dp"/>
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

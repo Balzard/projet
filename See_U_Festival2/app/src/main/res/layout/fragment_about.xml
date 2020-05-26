@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/what_is_un_mute"
+                android:textColor="@color/primary_un_mute"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/description_un_mute"
+                android:textColor="@color/primary_un_mute"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:background="@drawable/a_propos_background"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/ic_people_white_24dp"
+                    android:paddingLeft="17dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/collaboratif"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="110dp"
+                    android:text= "@string/collab_description"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_un_mute"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/a_propos_background"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/ic_place_white_24dp"
+                    android:paddingLeft="17dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/local"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="110dp"
+                    android:text="@string/local_description"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_un_mute"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/a_propos_background"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/ic_pan_tool_white_24dp"
+                    android:paddingLeft="17dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/participatif"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="110dp"
+                    android:text="@string/participatif_description"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_un_mute"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/a_propos_background"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:drawableStart="@drawable/ic_headset_white_24dp"
+                    android:paddingLeft="17dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decouverte"
+                    android:textSize="40dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="110dp"
+                    android:text="@string/decouverte_description"
+                    android:layout_gravity="center"
+                    android:textColor="@color/primary_un_mute"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

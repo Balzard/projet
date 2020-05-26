@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1086456333465",
+    "firebase_url": "https://ticket-it-69729.firebaseio.com",
+    "project_id": "ticket-it-69729",
+    "storage_bucket": "ticket-it-69729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086456333465:android:eacefac5915e0e7fe7a408",
+        "android_client_info": {
+          "package_name": "adri.suys.un_mutescan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086456333465-nhebcg6tos335iepur5mvd1adrtqksgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpp3A9mqXVIvuDgu7zeLCspixqFq0JR1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086456333465-nhebcg6tos335iepur5mvd1adrtqksgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

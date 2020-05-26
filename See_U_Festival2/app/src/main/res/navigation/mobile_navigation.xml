@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.see_u_festival.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_accueil" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.see_u_festival.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_artistes" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.see_u_festival.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_tickets" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.see_u_festival.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.see_u_festival.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_benevoles" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.see_u_festival.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

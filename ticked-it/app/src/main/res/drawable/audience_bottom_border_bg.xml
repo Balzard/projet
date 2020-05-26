@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:dither="false"
+            android:shape="rectangle">
+            <stroke android:width="2dp" android:color="@color/colorPrimary"></stroke>
+        </shape>
+    </item>
+    <item android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="@color/iceland_poppy"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp"
+        android:background="?attr/colorPrimary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/logo_description"
+                    android:src="@drawable/logo_yb_stroked" />-->
+
+                <ProgressBar
+                    android:id="@+id/progressBar_stat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/stat_event_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="            "
+                    android:textAlignment="center"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/stat_event_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="4 avril 2018"
+                    android:textColor="?attr/textcolor" />
+
+                <TextView
+                    android:id="@+id/stat_event_total_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL :    "
+                    android:textColor="?attr/textcolor" />
+
+                <TextView
+                    android:id="@+id/stat_event_total_ticket_sold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="VENDUS :    "
+                    android:textColor="?attr/textcolor" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="271dp"
+                    android:layout_height="220dp"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/progress_state_payment_mode"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="18dp"
+                    android:id="@+id/horizontal_barchart_title"/>
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/horizontal_barchart"
+                    android:layout_width="271dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/payment_per_cp"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="18dp"
+                    android:textAlignment="center"
+                    android:id="@+id/piechart_title_ticket"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_ticket"
+                    android:layout_width="271dp"
+                    android:layout_height="220dp"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/money_per_cp"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="18dp"
+                    android:id="@+id/piechart_title_money"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_money"
+                    android:layout_width="271dp"
+                    android:layout_height="220dp"
+                    android:layout_marginBottom="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
