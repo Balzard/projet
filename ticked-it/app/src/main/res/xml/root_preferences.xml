@@ -14,16 +14,19 @@
   ~ limitations under the License.
   -->
 
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory>
+    <PreferenceCategory
+        android:textSize="30dp">
         <ListPreference
             app:defaultValue="@string/fr_value"
             app:entries="@array/reply_entries"
             app:entryValues="@array/reply_values"
             app:key="key_lang"
             app:title="@string/lang_title"
-            app:useSimpleSummaryProvider="true" />
+            app:useSimpleSummaryProvider="true"
+            />
         <CheckBoxPreference
             app:defaultValue="true"
             app:key="notif_checkbox"

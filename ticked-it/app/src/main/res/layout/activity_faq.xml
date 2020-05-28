@@ -18,14 +18,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
+            android:textSize="@dimen/faq_text_orange"
             android:text="@string/faq_question1"
             android:layout_marginBottom="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="13dp"
+            android:textSize="@dimen/faq_text_black"
             android:layout_gravity="center_vertical|start"
             android:gravity="start"
             android:textColor="?attr/textcolor"
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
+            android:textSize="@dimen/faq_text_orange"
             android:text="@string/faq_question2"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="5dp"/>
@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="13dp"
+            android:textSize="@dimen/faq_text_black"
             android:layout_gravity="center_vertical|start"
             android:gravity="start"
             android:textColor="?attr/textcolor"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
-            android:textSize="18dp"
+            android:textSize="@dimen/faq_text_orange"
             android:text="@string/faq_question3"
             android:layout_marginBottom="5dp"
             android:layout_marginTop="20dp"/>
@@ -61,7 +61,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="13dp"
+            android:textSize="@dimen/faq_text_black"
             android:layout_gravity="center_vertical|start"
             android:gravity="start"
             android:textColor="?attr/textcolor"

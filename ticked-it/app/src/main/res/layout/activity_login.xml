@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activities.LoginActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +15,7 @@
         android:background="?attr/colorPrimary">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5">
 
@@ -38,18 +39,19 @@
 
                 <EditText
                     android:id="@+id/input_username"
-                    android:layout_width="350dp"
-                    android:layout_height="60dp"
+                    android:layout_width="@dimen/username_width"
+                    android:layout_height="@dimen/username_height"
                     android:layout_marginBottom="3dp"
                     android:hint="@string/username"
                     android:inputType="textEmailAddress"
                     android:textColor="@color/iceland_poppy"
                     android:textColorHint="@color/colorPrimary"
                     android:backgroundTint="?attr/textcolor"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/edit_textsize"/>
 
                 <LinearLayout
-                    android:layout_width="350dp"
+                    android:layout_width="@dimen/username_width"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:orientation="horizontal"
@@ -57,14 +59,15 @@
 
                     <EditText
                         android:id="@+id/input_password"
-                        android:layout_width="350dp"
-                        android:layout_height="40dp"
+                        android:layout_width="@dimen/username_width"
+                        android:layout_height="@dimen/username_height"
                         android:hint="@string/password"
                         android:inputType="textPassword"
                         android:textColor="@color/iceland_poppy"
                         android:textColorHint="@color/colorPrimary"
                         android:backgroundTint="?attr/textcolor"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/edit_textsize"/>
                     <Button
                         android:id="@+id/password_visibility"
                         android:layout_width="25dp"
@@ -81,8 +84,8 @@
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/login_um_btn"
-                    android:layout_width="250dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/login_button_width"
+                    android:layout_height="@dimen/login_button_height"
                     android:layout_marginBottom="10dp"
                     app:backgroundTint="@color/colorPrimary"
                     android:onClick="loginViaUm"
@@ -93,7 +96,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="@dimen/land_textsize"/>
 
 
 
@@ -105,7 +109,8 @@
                     android:textColor="?attr/textcolor"
                     android:clickable="true"
                     android:onClick="goToUrl"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/no_account_text"/>
 
             </LinearLayout>
 

@@ -19,29 +19,32 @@
 
             <Button
                 android:id="@+id/audience_btn_all"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/transparent"
                 android:text="@string/audience_btn_all"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="@dimen/state_capacite"/>
 
             <Button
                 android:id="@+id/audience_btn_in"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@android:color/transparent"
                 android:text="@string/audience_btn_in"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="@dimen/state_capacite"/>
 
             <Button
                 android:id="@+id/audience_btn_out"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:text="@string/audience_btn_out"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black"
+                android:textSize="@dimen/state_capacite"/>
 
         </LinearLayout>
 

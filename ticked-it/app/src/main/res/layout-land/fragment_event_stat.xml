@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/flat_flesh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="?attr/colorPrimary">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:id="@+id/progressBar_stat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/stat_event_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="            "
+                android:textAlignment="center"
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/title_stat_land"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/stat_event_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="4 avril 2018"
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/state_date_land"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/stat_event_total_ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL :    "
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/state_capacite_land"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/stat_event_total_ticket_sold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="VENDUS :    "
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/state_capacite_land"
+                android:layout_gravity="center"/>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/piechart"
+                android:layout_width="@dimen/graph_width"
+                android:layout_height="@dimen/graph_height"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/progress_state_payment_mode"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_capacite"
+                    android:id="@+id/horizontal_barchart_title"/>
+
+                <com.github.mikephil.charting.charts.HorizontalBarChart
+                    android:id="@+id/horizontal_barchart"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_pay_height"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/payment_per_cp"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_capacite"
+                    android:textAlignment="center"
+                    android:id="@+id/piechart_title_ticket"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_ticket"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_height"
+                    android:layout_marginBottom="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/money_per_cp"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_capacite"
+                    android:id="@+id/piechart_title_money"/>
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/piechart_money"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_height"
+                    android:layout_marginBottom="20dp" />
+
+
+
+
+
+            </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

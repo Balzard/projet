@@ -15,6 +15,7 @@
         <item name="android:editTextColor">@android:color/black</item>
         <item name="android:textColorSecondary">@color/colorPrimary</item>
         <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:textSize">@dimen/text_counter_size</item>
     </style>
 
     <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
@@ -32,12 +33,23 @@
         <item name="android:itemBackground">@color/black</item>
         <item name="bottomNavigationColor">#323232</item>
         <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:textSize">@dimen/text_counter_size</item>
+        <item name="android:editTextColor">@android:color/white</item>
 
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">15dp</item>
     </style>
 
     <!-- Change text's color of action bar -->
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_counter_size</item>
     </style>
 
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
@@ -55,6 +67,10 @@
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:windowTitleStyle">@style/DialogTitleStyle</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">30px</item>
     </style>
 
     <style name="DialogTitleStyle">

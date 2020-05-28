@@ -18,7 +18,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_horizontal"
+                android:gravity="center"
                 android:orientation="vertical"
                 android:padding="5dp">
 
@@ -29,7 +29,8 @@
                     android:layout_marginBottom="15dp"
                     android:text="@string/add_ticket_instructions"
                     android:textAlignment="center"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/title_sell" />
 
                 <ProgressBar
                     android:id="@+id/progressBar_ticket_type"
@@ -37,8 +38,9 @@
                     android:layout_height="wrap_content" />
 
                 <androidx.recyclerview.widget.RecyclerView
+
                     android:id="@+id/ticket_type_recycler_view"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="15dp"
                     android:textColor="?attr/textcolor"
@@ -48,28 +50,30 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/add_ticket_validate_btn"
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp"
+                    android:layout_height="@dimen/button_sell_height"
+                    android:layout_marginBottom="40dp"
                     android:backgroundTint="@color/colorPrimary"
-                    android:screenOrientation="portrait"
                     android:drawableStart="@drawable/ic_check_white_24dp"
+                    android:screenOrientation="portrait"
                     android:text="@string/validate"
                     android:textColor="@color/white"
-                    android:layout_marginBottom="40dp"/>
+                    android:textSize="@dimen/title_sell" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="goToCreateTicketActivity"
                     android:text="@string/create_ticket_description"
-                    android:onClick="goToCreateTicketActivity"
-                    android:textAlignment="center"/>
+                    android:textAlignment="center"
+                    android:textSize="@dimen/click_sell" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/create_tickets_description1"
                     android:onClick="goToCreateTicketActivity"
-                    android:textAlignment="center"/>
-
+                    android:text="@string/create_tickets_description1"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/click_sell" />
 
 
             </LinearLayout>

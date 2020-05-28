@@ -73,7 +73,7 @@
                         android:background="@drawable/edittext_background"
                         android:inputType="textEmailAddress"
                         android:id="@+id/buyer_email_input"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/text_counter_size"
                         android:layout_weight="60"
                         android:textColor="?attr/textcolor"/>
 
@@ -101,7 +101,7 @@
                         android:layout_marginBottom="3dp"
                         android:background="@drawable/edittext_background"
                         android:inputType="text"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/text_counter_size"
                         android:id="@+id/buyer_lastname_input"
                         android:textColor="?attr/textcolor"/>
 
@@ -131,7 +131,7 @@
                         android:background="@drawable/edittext_background"
                         android:inputType="text"
                         android:id="@+id/buyer_firstname_input"
-                        android:textSize="15dp"
+                        android:textSize="@dimen/text_counter_size"
                         android:textColor="?attr/textcolor"/>
 
                 </LinearLayout>
@@ -146,12 +146,13 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/pay_cash_btn"
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:drawableStart="@drawable/ic_attach_money_white_24dp"
                     android:text="@string/via_cash"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_counter_size"/>
 
 
             </LinearLayout>

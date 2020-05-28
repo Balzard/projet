@@ -7,23 +7,26 @@
         android:enabled="true"
         android:title="@string/menu_item_stat"
         android:icon="@drawable/ic_insert_chart_orange_24dp"
-        app:showAsAction="ifRoom"/>
+        android:height="40dp"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_qrcode"
         android:enabled="true"
         android:title="@string/menu_item_qrcode"
         android:icon="@drawable/ic_photo_camera_orange_24dp"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+    />
     <item
         android:id="@+id/action_add_ticket"
         android:enabled="true"
         android:title="@string/menu_item_add_ticket"
         android:icon="@drawable/ic_add_circle_orange_24dp"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_get_guest"
         android:enabled="true"
         android:title="@string/menu_item_guests"
         android:icon="@drawable/ic_local_play_orange_24dp"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
+
 </menu>

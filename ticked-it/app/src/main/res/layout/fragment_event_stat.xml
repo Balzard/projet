@@ -41,7 +41,7 @@
                     android:text="            "
                     android:textAlignment="center"
                     android:textColor="?attr/textcolor"
-                    android:textSize="30dp" />
+                    android:textSize="@dimen/stat_title" />
 
                 <TextView
                     android:id="@+id/stat_event_date"
@@ -49,14 +49,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:text="4 avril 2018"
-                    android:textColor="?attr/textcolor" />
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_date"/>
 
                 <TextView
                     android:id="@+id/stat_event_total_ticket"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TOTAL :    "
-                    android:textColor="?attr/textcolor" />
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_capacite"/>
 
                 <TextView
                     android:id="@+id/stat_event_total_ticket_sold"
@@ -64,12 +66,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="VENDUS :    "
-                    android:textColor="?attr/textcolor" />
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/state_capacite"/>
 
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/piechart"
-                    android:layout_width="271dp"
-                    android:layout_height="220dp"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_height"
                     android:layout_marginBottom="20dp" />
 
                 <TextView
@@ -78,13 +81,13 @@
                     android:layout_marginBottom="5dp"
                     android:text="@string/progress_state_payment_mode"
                     android:textColor="?attr/textcolor"
-                    android:textSize="18dp"
+                    android:textSize="@dimen/state_capacite"
                     android:id="@+id/horizontal_barchart_title"/>
 
                 <com.github.mikephil.charting.charts.HorizontalBarChart
                     android:id="@+id/horizontal_barchart"
-                    android:layout_width="271dp"
-                    android:layout_height="100dp"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_pay_height"
                     android:layout_marginBottom="20dp" />
 
                 <TextView
@@ -93,14 +96,14 @@
                     android:layout_marginBottom="5dp"
                     android:text="@string/payment_per_cp"
                     android:textColor="?attr/textcolor"
-                    android:textSize="18dp"
+                    android:textSize="@dimen/state_capacite"
                     android:textAlignment="center"
                     android:id="@+id/piechart_title_ticket"/>
 
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/piechart_ticket"
-                    android:layout_width="271dp"
-                    android:layout_height="220dp"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_height"
                     android:layout_marginBottom="20dp" />
 
                 <TextView
@@ -109,13 +112,13 @@
                     android:layout_marginBottom="5dp"
                     android:text="@string/money_per_cp"
                     android:textColor="?attr/textcolor"
-                    android:textSize="18dp"
+                    android:textSize="@dimen/state_capacite"
                     android:id="@+id/piechart_title_money"/>
 
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/piechart_money"
-                    android:layout_width="271dp"
-                    android:layout_height="220dp"
+                    android:layout_width="@dimen/graph_width"
+                    android:layout_height="@dimen/graph_height"
                     android:layout_marginBottom="20dp" />
 
             </LinearLayout>

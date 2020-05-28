@@ -50,6 +50,7 @@ public class OneEventActivity extends Activity {
         configActionBar(getString(R.string.my_event));
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();

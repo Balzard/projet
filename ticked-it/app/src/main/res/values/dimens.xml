@@ -1,8 +1,64 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="appbar_padding">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="username_width">350dp</dimen>
+    <dimen name="username_height">60dp</dimen>
+    <dimen name="login_button_width">250dp</dimen>
+    <dimen name="login_button_height">50dp</dimen>
+    <dimen name="no_account_text">14dp</dimen>
+
+    <!-- FAQ -->
+    <dimen name="faq_text_orange">18dp</dimen>
+    <dimen name="faq_text_black">13dp</dimen>
+
+    <!-- for statistics page -->
+    <dimen name="stat_title">30dp</dimen>
+    <dimen name="state_date">20dp</dimen>
+    <dimen name="state_capacite">15dp</dimen>
+    <dimen name="graph_height">220dp</dimen>
+    <dimen name="graph_width">271dp</dimen>
+    <dimen name="graph_pay_width"></dimen>
+    <dimen name="graph_pay_height">100dp</dimen>
+
+    <!-- manual barcode -->
+    <dimen name="text_barcode">18dp</dimen>
+    <dimen name="edit_barcode_width">210dp</dimen>
+    <dimen name="text_edit_barcode">15dp</dimen>
+    <dimen name="button_height_barcode">50dp</dimen>
+
+    <!-- land login -->
+    <dimen name="edit_text_height_land">50dp</dimen>
+    <dimen name="edit_text_width_land">300dp</dimen>
+    <dimen name="button_land_width">250dp</dimen>
+    <dimen name="button_leand_height">50dp</dimen>
+    <dimen name="land_textsize">12dp</dimen>
+    <dimen name="edit_textsize">18dp</dimen>
+
+    <!-- values for stats land -->
+    <dimen name="title_stat_land">20dp</dimen>
+    <dimen name="state_date_land">15dp</dimen>
+    <dimen name="state_capacite_land">12dp</dimen>
+
+    <!-- sell fragment -->
+    <dimen name="title_sell">18dp</dimen>
+    <dimen name="click_sell">15dp</dimen>
+    <dimen name="button_sell_height">50dp</dimen>
+    <!-- counterpart -->
+    <dimen name="text_counter_width">180dp</dimen>
+    <dimen name="button_counter_width">60dp</dimen>
+    <dimen name="counter_value_width">35dp</dimen>
+    <dimen name="text_counter_size">15dp</dimen>
+
+    <!-- create ticket activity -->
+    <dimen name="text_create_ticket">19dp</dimen>
+
+    <!-- icon bottom bar size -->
+    <dimen name="icon_bottom_bar">24dp</dimen>
+
+
+
 </resources>

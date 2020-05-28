@@ -93,6 +93,7 @@ public abstract class Activity extends AppCompatActivity {
         final Drawable upArrow = getResources().getDrawable(R.drawable.ic_arrow_back_orange_24dp);
         getSupportActionBar().setHomeAsUpIndicator(upArrow);
         getSupportActionBar().setIcon(R.drawable.ic_3_dots_24dp);
+
     }
 
     @SuppressLint("RestrictedApi")

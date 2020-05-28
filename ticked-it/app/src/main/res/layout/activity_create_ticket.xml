@@ -12,20 +12,20 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="?attr/colorPrimary">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp">
+            >
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:textSize="30dp"
+                android:textSize="@dimen/stat_title"
                 android:text="@string/create_ticket"
                 android:textColor="?attr/textcolor"/>
 
@@ -43,6 +43,7 @@
                     android:layout_marginRight="5dp"
                     android:layout_weight="20"
                     android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_create_ticket"
                     />
 
                 <EditText
@@ -52,7 +53,7 @@
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_ticket_name"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/text_create_ticket"
                     android:layout_weight="8"
                     android:textColor="?attr/textcolor"/>
 
@@ -69,16 +70,17 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ticket_description"
                     android:layout_weight="20"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_create_ticket"/>
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="3dp"
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_ticket_description"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/text_create_ticket"
                     android:layout_weight="8"
                     android:textColor="?attr/textcolor"/>
 
@@ -96,16 +98,17 @@
                     android:text="@string/stock_ticket"
                     android:layout_weight="20"
                     android:layout_gravity="center"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_create_ticket"/>
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="3dp"
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_ticket_stock"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/text_create_ticket"
                     android:layout_weight="8"
                     android:textColor="?attr/textcolor"/>
             </LinearLayout>
@@ -122,16 +125,18 @@
                     android:text="@string/max_nb_ticket"
                     android:layout_weight="20"
                     android:layout_gravity="center"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_create_ticket"
+                    />
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="3dp"
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_nb_ticket_order"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/text_create_ticket"
                     android:layout_weight="8"
                     android:textColor="?attr/textcolor"/>
             </LinearLayout>
@@ -144,18 +149,19 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="20"
                     android:text="@string/ticket_weight"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_create_ticket"/>
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="3dp"
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_ticket_weight"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/text_create_ticket"
                     android:layout_weight="8"
                     android:textColor="?attr/textcolor"/>
 
@@ -201,11 +207,11 @@
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
                     android:id="@+id/edit_free_ticket_price"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/state_date"
                     android:textColor="?attr/textcolor"/>
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/button_sell_height"
                     android:text="@string/create"
                     android:backgroundTint="@color/iceland_poppy"
                     android:textColor="@color/white" />

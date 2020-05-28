@@ -12,9 +12,7 @@
         android:orientation="vertical"
         android:background="?attr/colorPrimary">
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -36,31 +34,33 @@
                     android:layout_marginBottom="10dp"
                     android:text="@string/enter_manually_barcode_instructions"
                     android:textAlignment="center"
-                    android:textColor="?attr/textcolor"/>
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/text_barcode"/>
 
                 <EditText
                     android:id="@+id/input_barcode_value"
-                    android:layout_width="210dp"
+                    android:layout_width="@dimen/edit_barcode_width"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/edittext_background"
-                    android:textColor="@color/iceland_poppy"
-                    android:textColorHint="@color/iceland_poppy" />
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/iceland_poppy"
+                    android:textSize="@dimen/text_edit_barcode"/>
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_validation_request"
                     android:layout_width="wrap_content"
-                    android:layout_height="50dp"
+                    android:layout_height="@dimen/button_height_barcode"
                     android:layout_marginBottom="5dp"
                     android:backgroundTint="@color/colorPrimary"
                     android:screenOrientation="portrait"
                     android:drawableStart="@drawable/ic_check_white_24dp"
                     android:text="@string/validate"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_edit_barcode"/>
 
             </LinearLayout>
 
-        </ScrollView>
 
     </LinearLayout>
 

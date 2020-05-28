@@ -123,7 +123,7 @@
     <string name="ticket_name">Nom</string>
     <string name="ticket_description">Description</string>
     <string name="stock_ticket">Nombre en\nstock au total</string>
-    <string name="max_nb_ticket">Nombre maximum par\ncommancde</string>
+    <string name="max_nb_ticket">Nombre maximum par\ncommande</string>
     <string name="ticket_weight">Poids</string>
     <string name="kid_ticket">Il s\'agit d\'un ticket enfant</string>
     <string name="free_price">Le prix doit être librement choisi par les acheteurs</string>
